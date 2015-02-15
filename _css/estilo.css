@@ -141,6 +141,32 @@ footer#rodape p {
     text-align: center;
 }
 
+/* Formatação da Tabela */
+
+table#tabela {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela td {
+    border: 1px solid #606060;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table#tabela td.ce {
+    background-color: #606060;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+table#tabela td.cd {
+    text-align: left;
+    background-color: #cecece;
+}
 
 
 
