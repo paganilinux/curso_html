@@ -117,6 +117,16 @@ nav#menu h1 {
     display: none;
 }
 
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 /* Formatação do corpo */
 
 section#corpo {
@@ -242,4 +252,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+video#filme {
+	display: block;
+	position: relative;
+	width: 350px;
+}
+
+video#filme1 {
+	display: block;
+	margin: auto;
 }
